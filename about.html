@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Kaycee Poultry Farm</title>
+  <link rel="icon" type="image/x-icon" href="broiler4-removebg-preview.png">
+  <link rel="stylesheet" href="about.css">
+</head>
+<body>
+
+  <div class="top-bar">
+    <div class="container">
+        <marquee behavior="" direction="left">
+      <span>📍 BWARI,ABUJA</span>
+      <span>📞 +234 805 297 6965</span>
+      <span>✉ jondek2002@gmail.com</span>
+        </marquee>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="logo"><h4>PW AND JD AGRO-AQUA FARMS LTD</h4></div>
+    <nav id="nav-links">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About Us</a></li>
+        <!-- <li><a href="products.html">Products</a></li> -->
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <h1>About Us</h1>
+    <p> We specialize in free-range chicken, farm-fresh eggs, and high-quality poultry feed.</p>
+  </section>
+
+  <section class="about-section">
+    <div class="about-text">
+      <h2>Who We Are</h2>
+      <p>
+        PW AND JD FARMS LTD is dedicated to providing fresh, healthy, and
+        nutritious poultry products to families, businesses, and communities.
+        Since our founding, we have focused on quality farming practices,
+        animal welfare, and delivering farm-fresh products you can trust.
+      </p>
+
+      <h2>Our Mission</h2>
+      <p>
+        To supply fresh eggs, broilers, and organic poultry feeds while
+        maintaining sustainable farming methods and supporting local
+        communities.
+      </p>
+
+      <h2>Why Choose Us?</h2>
+      <ul>
+        <li>✔ Fresh and organic products</li>  
+        <li>✔ Healthy and well-raised poultry</li>
+        <li>✔ Trusted by families and businesses</li>
+        <li>✔ Affordable and reliable supply</li>
+      </ul>
+    </div>
+
+    <!-- <div class="about-image">
+      <img src="assets/images/farm-workers.jpg" alt="Kaycee Poultry Farm Team">
+    </div>
+  </section> -->
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 PW AND JD AGRO-AQUA FARMS LTD. All rights reserved.
+    </p>
+  </footer>
+
+  <script>
+  const hamburger = document.getElementById("hamburger");
+  const navLinks = document.getElementById("nav-links");
+
+  hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("show");
+    hamburger.classList.toggle("active");
+  });
+</script>
+</body>
+</html>
